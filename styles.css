@@ -1,0 +1,416 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+.SLS {
+    text-transform: uppercase;
+    font-family: montserrat, Serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 1.125em;
+    letter-spacing: .04em;
+    margin-top: 40px;
+}
+
+#school-title {
+    font-family: montserrat, Serif;
+    text-decoration: none;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.65em;
+    margin: 0;
+    display: block;
+    margin: 35px auto 0;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+}
+
+header,
+#footer {
+    background-color: white;
+}
+
+body {
+    background: #f0f0f0;
+    margin: 0px;
+    font-family: poppins;
+}
+
+.content {
+    position: relative;
+    min-height: 100vh;
+}
+
+#main {
+    padding-bottom: 15rem;
+    /* background-color: #f0f0f0; */
+}
+
+.header {
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+/* .SchoolTitle{
+    display: flex;
+  } */
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table td,
+table th {
+    border: solid 1px;
+    padding: 10px;
+}
+
+table th {
+    background-color: aqua;
+}
+
+.clear {
+    clear: both;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.HeaderLogo svg,
+.HeaderLogo img,
+#UALogo {
+    width: 93px;
+    float: left;
+    margin-right: 15px;
+}
+
+figure {
+    margin: 0px;
+}
+
+.footerLogo img {
+    width: 138px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 40px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    height: 15rem;
+}
+
+footer .quicklinks a {
+    padding-right: 10px;
+    font-size: 0px;
+}
+
+.svg-inline--fa {
+    width: 14px;
+}
+
+#sloganFooter {
+    width: 461px;
+}
+
+#footer h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125em;
+    font-family: montserrat, Sans-Serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#navBar {
+    background-color: #ffda00;
+}
+
+.contact-us {
+    /* margin-top: 12px; */
+}
+
+.DistrictTopNav {
+    position: relative;
+    z-index: 50000;
+    background: #e1e1e1;
+    height: 54px;
+}
+
+.section {
+    margin-bottom: 10px;
+}
+
+.accessablity-note {
+    font-size: 15px;
+}
+#club-quote p {
+    padding-left: 0px;
+}
+#club-quote {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#video-caption{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#club-name {
+    margin-top: 30px;
+}
+
+
+.header {
+    margin-bottom: 45px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+nav li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+nav li:last-child {
+    border-bottom: none;
+}
+
+nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover,
+nav li a:focus {
+    background-color: #555;
+    color: #FFFFFF;
+}
+
+nav li a.active {
+    background-color: #04AA6D;
+    color: #FFFFFF;
+}
+
+.img-1 {
+    width: 100%;
+}
+
+
+#footer-container {
+    background-color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+#questions {
+    width:75%;
+}
+
+li>a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+h2 {
+    border-bottom: 4px solid #dfdfe2;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+
+.info {
+    padding: 10px 0 0 5px;
+}
+
+.formrow {
+    margin-top: 30px;
+    padding: 0px 15px;
+}
+
+input {
+    font-size: 16px;
+}
+
+.info label,
+.info input {
+    display: inline-block;
+}
+
+.info input {
+    width: 38%;
+    text-align: left;
+}
+
+.info label {
+    width: 7%;
+    min-width: 55px;
+    text-align: right;
+}
+
+.question-block {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+p {
+    margin-top: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.question {
+    border: none;
+    padding-bottom: 0;
+}
+
+.answers-list {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    display: block;
+    margin: 40px auto;
+    width: 100%;
+    padding: 15px;
+    font-size: 23px;
+    background: #d0d0d5;
+    border: 3px solid #3b3b4f;
+}
+
+address {
+    text-align: center;
+    padding: 0.3em;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+legend {
+    font-size: 20px;
+}
+
+.club-label,
+.interest-label {
+    font-size: 20px;
+}
+
+button:focus {
+    outline: 2px solid black;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .footerLogo img {
+        margin-bottom: 18px;
+    }
+    #copyright {
+        margin-top: 20px;
+    }    
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f1f1f1;
+        border: none;
+    }
+
+    nav li {
+        float: left;
+        border: none;
+        /* border-right: 1px solid #555; */
+    }
+
+    nav li a {
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav li a:hover,
+    nav li a:focus {
+        background-color: #555;
+        color: #FFFFFF;
+    }
+
+    nav li a.active {
+        background-color: #038759;
+        color: #FFFFFF;
+    }
+
+    .img-1 {
+        width: 50%;
+    }
+
+    .header {
+        margin-bottom: 0px;
+    }
+
+    #topNav {
+        background-color: #ffda00;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #copyright {
+        margin-top: 0px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

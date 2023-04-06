@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./assets/img/UA-block.PNG">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Registration Page</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="DistrictTopNav"></div>
+        <header>
+            <div class="header container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="divHeaderLogo">
+                            <img id="UALogo" src=".\assets\img\UABearLogo.PNG" alt="Upper Arlington Schools Bear logo"></img>
+                        </div>
+                        <div>
+                            <h1 id="school-title">Upper Arlington High School</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-4 SLS d-none d-lg-block">
+                        Serve &nbsp;•&nbsp; Lead &nbsp;•&nbsp; Succeed
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main id="main">
+            <nav id="topNav">
+                <div class="container">
+                    <ul id="navBar">
+                        <li><a href="club.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a class="active" href="Registration.html">Registration</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container section">
+                <form action="mailto:recipient@example.com?subject=Club%20Registration" method="post" enctype="text/plain">
+                    <section role="region" aria-labelledby="student-info">
+                        <h2 id="student-info">Contact Info</h2>
+                        <div class="info">
+                            <label for="student-name">Name:</label>
+                            <input type="text" name="student-name" id="student-name" required/>
+                        </div>
+                        <div class="info">
+                            <label for="student-email">Email:</label>
+                            <input type="email" name="student-email" id="student-email" required/>
+                        </div>
+                    </section>
+                    <section role="region" aria-labelledby="html-questions">
+                        <h2 id="html-questions">Availability</h2>
+                        <div class="question-block">
+                            <fieldset class="question" name="html-question-one">
+                                <legend>
+                                    Please select your first preferred choice for the day of the week our club meets
+                                    after school.
+                                </legend>
+                                <ul class="answers-list">
+                                    <li>
+                                        <label for="q1-a1">
+                                            <input type="radio" id="q1-a1" name="PreferredMeetingDayFirstChoice" value="Monday" />
+                                            Monday
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="q1-a2">
+                                            <input type="radio" id="q1-a2" name="PreferredMeetingDayFirstChoice" value="Tuesday" />
+                                            Tuesday
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="q1-a3">
+                                            <input type="radio" id="q1-a3" name="PreferredMeetingDayFirstChoice" value="Wednesay" />
+                                            Wednesay
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="q1-a4">
+                                            <input type="radio" id="q1-a4" name="PreferredMeetingDayFirstChoice" value="Thursday" />
+                                            Thursday
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="q1-a5">
+                                            <input type="radio" id="q1-a5" name="PreferredMeetingDayFirstChoice" value="Friday" />
+                                            Friday
+                                        </label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </div>
+                        <div class="question-block">
+                            <fieldset class="question" name="html-question-two">
+                                <legend>
+                                    Please select your second preferred choice for the day of the week our club meets
+                                    after school.
+                                </legend>
+                                <ul class="answers-list">
+                                    <li>
+                                        <label for="q2-a1">
+                                            <input type="radio" id="q2-a1" name="PreferredMeetingDaySecondChoice" value="Monday" />
+                                            Monday
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="q2-a2">
+                                            <input type="radio" id="q2-a2" name="PreferredMeetingDaySecondChoice" value="Tuesday" />
+                                            Tuesday
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="q2-a3">
+                                            <input type="radio" id="q2-a3" name="PreferredMeetingDaySecondChoice" value="Wednesay" />
+                                            Wednesay
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="q2-a4">
+                                            <input type="radio" id="q2-a4" name="PreferredMeetingDaySecondChoice" value="Thursday" />
+                                            Thursday
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="q2-a5">
+                                            <input type="radio" id="q2-a5" name="PreferredMeetingDaySecondChoice" value="Friday" />
+                                            Friday
+                                        </label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </div>
+                    </section>
+                    <section role="region" aria-labelledby="css-questions">
+                        <h2 id="css-questions">Interests</h2>
+                        <div class="formrow">
+                            <div class="question-block">
+                                <label class="club-label" for="clubs">Club Options</label>
+                            </div>
+                            <div class="answer">
+                                <select name="club" id="clubs" required>
+                                    <option value="">Select a club</option>
+                                    <option value="ALS Awareness Club">ALS Awareness Club</option>
+                                    <option value="Art Therapy Club">Art Therapy Club</option>
+                                    <option value="Celebrating You Club">Celebrating You Club</option>
+                                    <option value="Education for Equality">Education for Equality</option>
+                                    <option value="Gaming Club">Gaming Club</option>
+                                    <option value="Jam Club">Jam Club</option>
+                                    <option value="Model Railroad Club">Model Railroad Club</option>
+                                    <option value="Students For Change">Students For Change</option>
+                                    <option value="Film Enthusiasts and Analysts Club">Film Enthusiasts and Analysts Club</option>
+                                    <option value="Ultimate Frisbee Club">Ultimate Frisbee Club</option>
+                                    <option value="Music Service Club ">Music Service Club </option>
+                                    <option value="Photo Club">Photo Club</option>
+                                    <option value="True Crime Club">True Crime Club</option>
+                                    <option value="Sailing Club">Sailing Club</option>
+                                    <option value="Zezdia K-Pop Cover Dance Club">Zezdia K-Pop Cover Dance Club</option>
+                                    <option value="Veterans Club">Veterans Club</option>
+                                </select>
+                            </div>
+                            <div class="question-block">
+                                <label class="interest-label" for="questions">In what kinds of activities would you like to see our club
+                                    engaged?</label>
+                            </div>
+                            <div class="answer">
+                                <textarea id="questions" name="activities-interested-in" rows="5" 
+                                    placeholder="Tell us what you're into..."></textarea>
+                            </div>
+                        </div>
+                    </section>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </main>
+        <footer id="footer">
+            <div id="footer-container" class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <figure id="ucFooter_HyperLink1" class="footerLogo" href="Default.aspx">
+                            <img src=".\assets\img\UAFooterLogo.PNG" alt="Upper Arlington HighSchool UH Initials Logo" />
+                        </figure>
+                        <div class="FooterAddress">
+                            <h1><span id="ucFooter_lblSchoolTitle">Upper Arlington Schools</span></h1>
+                            <span id="ucFooter_lblAddressPhoneInfo" class="footertext">1619 Zollinger Road<br>Upper
+                                Arlington, OH
+                                43221<br>Hours: 7:30 a.m. to 4:00 p.m. Mon-Fri<br>Phone: (614) 487-5000</span>
+                            <div class="quicklinks">
+                                <a id="ucFooter_Facebook"
+                                    href="https://www.facebook.com/UpperArlingtonSchools" target="_blank"
+                                    style="color: #3B5998">
+                                    <img src="assets/img/favicons/facebook.svg" alt="facebook external link" width="16" height="16"
+                                        fill="currentColor">
+                                </a>
+                                <a id="ucFooter_HyperLink3"
+                                    href="https://twitter.com/@UA_Schools" target="_blank" style="color: #1DA1F2">
+                                    <img src="assets/img/favicons/twitter.svg" alt="twitter external link" width="16" height="16"
+                                        fill="currentColor">
+                                </a>
+                                <a id="ucFooter_HyperLink4"
+                                    href="https://www.instagram.com/ua_schools/" target="_blank" style="color: #833AB4">
+                                    <img src="assets/img/favicons/instagram.svg" alt="Instagram external link" width="16" height="16"
+                                        fill="currentColor">
+                                </a>
+                                <a id="ucFooter_HyperLink5" 
+                                    href="https://www.youtube.com/channel/UCxVGAsBb23OFvkE-3hJRLsg" target="_blank"
+                                    style="color: #E51A1A">
+                                    <img src="assets/img/favicons/youtube.svg" alt="youtube external link" width="16" height="16"
+                                        fill="currentColor">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="EveryStudent d-none d-lg-block">
+                            <img id="sloganFooter" src=".\assets\img\UAFooterLogo2.PNG" alt="Text art saying Change and Support Every Student, Every Step of the Way"></img>
+                        </div>
+                        <div id="copyright">
+                            <span id="ucFooter_lblOwnershipInfo" class="OwnershipLabel">© 2023. Upper Arlington
+                                Schools. All
+                                Rights Reserved.</span>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <div class="row contact-us">
+                    <div class="col-md-12 accessablity-note d-none d-lg-block">
+                        Website Accessibility: Please contact us if you experience any barriers accessing our website-
+                        <a id="ucFooter_HyperLink6" aria-label="Email for Upper Arlington Website"
+                            href="mailto:website@uaschools.org" target="_blank"
+                            style="font-size:16px;margin-top:-12px;margin-bottom:10px;color:#018294;float:none;">
+                            <span>website@uaschools.org</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="./tests.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./assets/js/vendor/popper.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/vendor/holder.min.js"></script>
+</body>
+
+</html>
