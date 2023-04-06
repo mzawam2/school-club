@@ -159,6 +159,7 @@ footer .quicklinks a {
 .accessablity-note {
     font-size: 15px;
 }
+
 #club-quote p {
     padding-left: 0px;
 }
@@ -166,15 +167,14 @@ footer .quicklinks a {
     margin-top: 20px;
     margin-bottom: 40px;
 }
-#video-caption{
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
 #club-name {
     margin-top: 30px;
 }
 
+#video-caption{
+    display: block;
+    margin-top: 10px;
+}
 
 .header {
     margin-bottom: 45px;
@@ -220,20 +220,20 @@ nav li a.active {
     width: 100%;
 }
 
-
-#footer-container {
-    background-color: white;
+#img-div{
+    margin-bottom: 60px;
 }
 
+#questions {
+    width:75%;
+}
 @media (prefers-reduced-motion: no-preference) {
     * {
         scroll-behavior: smooth;
     }
 }
 
-#questions {
-    width:75%;
-}
+
 
 li>a {
     color: inherit;
@@ -339,10 +339,6 @@ legend {
 .club-label,
 .interest-label {
     font-size: 20px;
-}
-
-button:focus {
-    outline: 2px solid black;
 }
 
 /* Small devices (landscape phones, 576px and up) */
