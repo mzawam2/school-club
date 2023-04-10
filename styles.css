@@ -227,6 +227,9 @@ nav li a.active {
 #img-div img{
     width:100%;
 }
+#reg-btn{
+    height: 71px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
     * {
@@ -234,9 +237,7 @@ nav li a.active {
     }
 }
 
-#questions {
-    width:75%;
-}
+
 
 li>a {
     color: inherit;
@@ -274,7 +275,6 @@ input {
 }
 
 .info input {
-    width: 38%;
     text-align: left;
 }
 
@@ -406,12 +406,19 @@ button:focus {
     #topNav {
         background-color: #ffda00;
     }
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     #copyright {
         margin-top: 0px;
+    }
+    .info input {
+        width: 50%;
+    }
+    #clubs{
+        width: 50%;
     }
 }
 

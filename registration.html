@@ -53,11 +53,11 @@
                         <h2 id="student-info">Contact Info</h2>
                         <div class="info">
                             <label for="student-name">Name:</label>
-                            <input type="text" name="student-name" id="student-name" required/>
+                            <input type="text" class="form-control" name="student-name" id="student-name" required/>
                         </div>
                         <div class="info">
                             <label for="student-email">Email:</label>
-                            <input type="email" name="student-email" id="student-email" required/>
+                            <input type="email" class="form-control" name="student-email" id="student-email" required/>
                         </div>
                     </section>
                     <section role="region" aria-labelledby="html-questions">
@@ -150,7 +150,7 @@
                                 <label class="club-label" for="clubs">Club Options</label>
                             </div>
                             <div class="answer">
-                                <select name="club" id="clubs" required>
+                                <select name="club"  class="form-control" id="clubs" required>
                                     <option value="">Select a club</option>
                                     <option value="ALS Awareness Club">ALS Awareness Club</option>
                                     <option value="Art Therapy Club">Art Therapy Club</option>
@@ -175,12 +175,12 @@
                                     engaged?</label>
                             </div>
                             <div class="answer">
-                                <textarea id="questions" name="activities-interested-in" rows="5" 
+                                <textarea  class="form-control" id="questions" name="activities-interested-in" rows="5" 
                                     placeholder="Tell us what you're into..."></textarea>
                             </div>
                         </div>
                     </section>
-                    <button type="submit">Send</button>
+                    <button id="reg-btn" type="submit" class="btn btn-info" >Send</button>
                 </form>
             </div>
         </main>
