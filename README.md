@@ -48,6 +48,6 @@ NOTE: After each code change, refresh the browser to review and test the changes
 ***
 
 ## Helpful Links
- - The full NVDA [user guide](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#RunningNVDA) has all the NVDA commands, split up into different sections for reference. 
  - [W3Schools](https://www.w3schools.com/html/html_intro.asp) is a school for web developers, covering all the aspects of web development. 
  - Basic grid layouts to get you familiar with building within the [Bootstrap grid system](https://getbootstrap.com/docs/4.6/layout/grid/).
+ - The full NVDA [user guide](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#RunningNVDA) has all the NVDA commands, split up into different sections for reference. 
