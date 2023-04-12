@@ -48,3 +48,5 @@ NOTE: After each code change, refresh the browser to review and test the changes
 ***
 
 ## Helpful Links
+ -The full NVDA user guide has all the NVDA commands, split up into different sections for reference.
+ https://www.nvaccess.org/files/nvda/documentation/userGuide.html#RunningNVDA
