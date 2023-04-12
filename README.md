@@ -49,6 +49,5 @@ NOTE: After each code change, refresh the browser to review and test the changes
 
 ## Helpful Links
  - The full NVDA [user guide](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#RunningNVDA) has all the NVDA commands, split up into different sections for reference. 
- - W3Schools is a school for web developers, covering all the aspects of web development. https://www.w3schools.com/html/html_intro.asp
- - Basic grid layouts to get you familiar with building within the Bootstrap grid system. https://getbootstrap.com/docs/4.6/layout/grid/![image](https://user-images.githubusercontent.com/129519911/231574344-f735b34b-47ef-492e-86f0-f28c411e73c9.png)
-
+ - [W3Schools](https://www.w3schools.com/html/html_intro.asp) is a school for web developers, covering all the aspects of web development. 
+ - Basic grid layouts to get you familiar with building within the [Bootstrap grid system]. (https://getbootstrap.com/docs/4.6/layout/grid/)
