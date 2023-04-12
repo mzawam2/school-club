@@ -46,3 +46,5 @@ NOTE: After each code change, refresh the browser to review and test the changes
  - Create an About Us page or any other additional page you like
  
 ***
+
+## Helpful Links
