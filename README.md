@@ -11,6 +11,8 @@ If your school doesn't have a club that interests you, this is a great opportuni
 # Lab Instructions
 NOTE: After each code change, refresh the browser to review and test the changes.
 
+> 📘 **Need more detail?** See [`LAB_GUIDE.md`](./LAB_GUIDE.md) for an in-depth walkthrough of every step — including the *why* behind each task, technical concepts, and code hints.
+
 ## Club Home Page
 1. Decide on a new school club to found.
 2. Add lang="en" to ```<html>```
