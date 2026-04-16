@@ -13,7 +13,7 @@ NOTE: After each code change, refresh the browser to review and test the changes
 
 ## Club Home Page
 1. Decide on a new school club to found.
-2. Add lang="en" to <html> 
+2. Add lang="en" to ```<html>```
 3. Add a unique ```<title>``` that explains the purpose of the page
 4. Add your club name to the ```<h1 id="club-name">``` header
 5. Add a favicom to the href attribute in the following link in the ```<head>```... ```<link rel="icon" href="">```
