@@ -94,7 +94,7 @@ NOTE: After each code change, refresh the browser to review and test the changes
 
 ## Registration Page
 13. Open the Registration page.
-2. Add lang="en" to <html>
+2. Add lang="en" to ```<html>```
 3. Add a unique ```<title>``` that explains the purpose of the page
 5. Add a favicom to the href attribute in the following link in the ```<head>```... ```<link rel="icon" href="">```
 14. Change the names from q1 and q2 to be more descriptive for the availability questions
