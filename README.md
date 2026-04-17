@@ -1,11 +1,9 @@
 # school-club
 **Basic html project demonstrating accessibility principals and responsive design.**
 ***
-Upper Arlington High School believes that a well-rounded education includes participation in extracurricular activities, which is a critical component to becoming Uniquely Accomplished.  We encourage and support students to pursue a variety of extracurricular activities.  This is an excellent way to explore your passions with like-minded individuals.  It also provides opportunities to hone your social, professional, and leadership skills.
+Extracurricular activities are a core part of a well-rounded education and a key step toward becoming **Uniquely Accomplished**. They're where you explore your passions alongside like-minded peers and sharpen your social, professional, and leadership skills.
  
-Don't see a club that interests you? Start your own. Leadership means sharing a vision, inspiring others, and listening to feedback — and this project gives you practice with all three.
-
-Your task: **invent a brand-new school club** (something that doesn't already exist) and build a website that pitches your idea and collects feedback from potential members. The site must:
+Your task: **invent a brand-new school club** and build a website that pitches your idea and collects feedback from potential members. The site must:
 
 - Look great on phones, tablets, and desktop monitors (responsive design)
 - Be accessible to every student, including those using screen readers
@@ -46,12 +44,15 @@ You'll use a screen reader to complete the accessibility testing steps. Pick the
 - **Windows — NVDA** (free download)
   - Download from [nvaccess.org/download](https://www.nvaccess.org/download/).
   - Launch it from the Start Menu. Quit with `Insert + Q`.
+  - Reference: [NVDA keyboard commands](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#Keyboard%20Commands) · [Deque NVDA shortcuts cheat sheet](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
 - **macOS — VoiceOver** (built-in, nothing to install)
   - Toggle on/off with `Cmd + F5`.
   - Docs: [Apple VoiceOver Guide](https://support.apple.com/guide/voiceover/).
+  - Reference: [VoiceOver general commands](https://support.apple.com/guide/voiceover/general-commands-cpvokys01/mac) · [VoiceOver web navigation commands](https://support.apple.com/guide/voiceover/web-content-cpvokys17/mac) · [Deque VoiceOver shortcuts cheat sheet](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts)
 - **Chromebook — ChromeVox** (built-in, nothing to install)
   - Toggle on/off with `Ctrl + Alt + Z`.
   - Docs: [Chromebook screen reader help](https://support.google.com/chromebook/answer/7031755).
+  - Reference: [ChromeVox keyboard commands](https://www.chromevox.com/keyboard_shortcuts.html)
 
 ## 4. Install axe DevTools (Chrome Extension)
 axe DevTools scans your page for accessibility issues.
@@ -111,4 +112,29 @@ NOTE: After each code change, refresh the browser to review and test the changes
  - Make the form more visually appealing using CSS/Bootstrap
  - Create an About Us page or any other additional page you like
  
+ 
 ***
+
+## Helpful Links
+
+### Learning HTML, CSS, and Bootstrap
+- [W3Schools HTML Tutorial](https://www.w3schools.com/html/html_intro.asp) — beginner-friendly lessons covering HTML, CSS, and more
+- [MDN Web Docs — HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) — the definitive reference for every HTML tag
+- [Bootstrap grid system](https://getbootstrap.com/docs/5.3/layout/grid/) — the 12-column responsive grid used in this project
+- [Bootstrap forms](https://getbootstrap.com/docs/5.3/forms/overview/) — ready-made styling for form fields and buttons
+
+### Accessibility
+- [MDN — Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility) — broad overview of web accessibility topics
+- [WebAIM — Introduction to Web Accessibility](https://webaim.org/intro/) — plain-English intro to why and how
+- [WebAIM — Keyboard Accessibility](https://webaim.org/techniques/keyboard/) — essential reading for Step 20 (tab/focus testing)
+- [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/) — the checklist axe DevTools is based on
+
+### Screen readers
+- [NVDA user guide](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#RunningNVDA) — complete NVDA reference, split by section
+- [Apple VoiceOver Guide](https://support.apple.com/guide/voiceover/welcome/mac) — complete VoiceOver reference
+- [ChromeVox keyboard commands](https://www.chromevox.com/keyboard_shortcuts.html) — complete ChromeVox reference
+- [WebAIM — Designing for screen reader compatibility](https://webaim.org/techniques/screenreader/) — how screen readers work and how to build for them
+
+### Testing tools
+- [axe DevTools extension](https://www.deque.com/axe/devtools/extension/) — official Deque documentation
+- [Chrome DevTools — Device Mode](https://developer.chrome.com/docs/devtools/device-mode) — how to test responsive layouts at different viewport sizes
