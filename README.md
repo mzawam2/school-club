@@ -8,6 +8,63 @@ If your school doesn't have a club that interests you, this is a great opportuni
 ![Student Led Clubs!](./assets/img/student-led-clubs.png)
 
 ***
+# Setup
+Before starting the lab, get your environment ready. You'll need the project files, a code editor, a screen reader, and the axe DevTools Chrome extension.
+
+## 1. Download the Project
+1. On the GitHub repo page, click the green **Code** button.
+2. Choose **Download ZIP**.
+3. Extract (unzip) the file somewhere easy to find, like your **Desktop** or **Documents** folder.
+
+## 2. Open the Project in VS Code
+Pick one of the options below based on whether you can install software on your machine.
+
+### Option A — VS Code Desktop (recommended)
+1. Download and install VS Code from [code.visualstudio.com](https://code.visualstudio.com/).
+2. Launch VS Code.
+3. Click **File → Open Folder…** (top-left menu).
+4. Navigate to the extracted project folder and click **Select Folder**.
+
+### Option B — VS Code for the Web (no install needed)
+If you can't install software on your machine, you can use the browser version:
+1. Open [vscode.dev](https://vscode.dev/) in Chrome or Edge.
+2. Click **File → Open Folder…** at the top-left.
+3. Select the extracted project folder and grant browser permission when prompted.
+
+> Some advanced features (extensions, terminal) are limited in the web version, but it's fully capable for this lab.
+
+## 3. Set Up a Screen Reader
+You'll use a screen reader to complete the accessibility testing steps. Pick the one that matches your operating system:
+
+- **Windows — NVDA** (free download)
+  - Download from [nvaccess.org/download](https://www.nvaccess.org/download/).
+  - Launch it from the Start Menu. Quit with `Insert + Q`.
+- **macOS — VoiceOver** (built-in, nothing to install)
+  - Toggle on/off with `Cmd + F5`.
+  - Docs: [Apple VoiceOver Guide](https://support.apple.com/guide/voiceover/).
+- **Chromebook — ChromeVox** (built-in, nothing to install)
+  - Toggle on/off with `Ctrl + Alt + Z`.
+  - Docs: [Chromebook screen reader help](https://support.google.com/chromebook/answer/7031755).
+
+## 4. Install axe DevTools (Chrome Extension)
+axe DevTools scans your page for accessibility issues.
+
+1. Open Chrome and go to the [axe DevTools listing on the Chrome Web Store](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd).
+2. Click **Add to Chrome**, then **Add extension** in the confirmation dialog.
+3. **Important — allow access to local files.** Because we're opening `club.html` and `registration.html` directly from your computer (as `file:///…` URLs), the extension needs permission to scan them:
+   - In Chrome, go to `chrome://extensions/`.
+   - Find **axe DevTools** in the list and click **Details**.
+   - Scroll down and toggle on **Allow access to file URLs**.
+
+### How to Run an axe Scan
+1. Open your HTML page in Chrome (e.g., double-click `club.html`).
+2. Press `F12` (or right-click → **Inspect**) to open Chrome DevTools.
+3. Click the **axe DevTools** tab in the DevTools panel.
+4. Click **Scan ALL of my page**.
+5. Review each issue — click **Highlight** next to an issue to see it on the page.
+6. Fix the issue in your HTML/CSS, save the file, refresh the browser, and re-scan until there are no issues.
+
+***
 # Lab Instructions
 NOTE: After each code change, refresh the browser to review and test the changes.
 
