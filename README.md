@@ -3,7 +3,14 @@
 ***
 Upper Arlington High School believes that a well-rounded education includes participation in extracurricular activities, which is a critical component to becoming Uniquely Accomplished.  We encourage and support students to pursue a variety of extracurricular activities.  This is an excellent way to explore your passions with like-minded individuals.  It also provides opportunities to hone your social, professional, and leadership skills.
  
-If your school doesn't have a club that interests you, this is a great opportunity to start your own.  Leadership is about sharing your vision and inspiring others.  It is also about listening and taking feedback.  To that end build a website that shares your vision for a new School Club and takes feedback from potential members.  This site should look good whether viewed from a tablet, a smartphone or a computer monitor.   It should also be accessible to all students.  Below is a list of existing student-led clubs and activities.  Create a new club, something that doesn't exist currently, something you think will be fun or interesting or good for your community!  Here are some [club ideas](https://getschooled.com/article/4082-35-unique-high-school-club-ideas-extracurricular-activities/) to get you started.
+Don't see a club that interests you? Start your own. Leadership means sharing a vision, inspiring others, and listening to feedback — and this project gives you practice with all three.
+
+Your task: **invent a brand-new school club** (something that doesn't already exist) and build a website that pitches your idea and collects feedback from potential members. The site must:
+
+- Look great on phones, tablets, and desktop monitors (responsive design)
+- Be accessible to every student, including those using screen readers
+
+Need inspiration? Browse these [35 unique high school club ideas](https://getschooled.com/article/4082-35-unique-high-school-club-ideas-extracurricular-activities/).
 
 ![Student Led Clubs!](./assets/img/student-led-clubs.png)
 
