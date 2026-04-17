@@ -79,7 +79,7 @@ NOTE: After each code change, refresh the browser to review and test the changes
 > 📘 **Need more detail?** See [`LAB_GUIDE.md`](./LAB_GUIDE.md) for an in-depth walkthrough of every step — including the *why* behind each task, technical concepts, and code hints.
 
 ## Club Home Page
-1. Decide on a new school club to found.
+1. Decide on a new school club to found. Open club.html in your editor and your browser.
 2. Add lang="en" to ```<html>```
 3. Add a unique ```<title>``` that explains the purpose of the page
 4. Add your club name to the ```<h1 id="club-name">``` header
@@ -93,19 +93,19 @@ NOTE: After each code change, refresh the browser to review and test the changes
 12. Review the website at three viewports: desktop, laptop, and mobile view.
 
 ## Registration Page
-13. Open the Registration page.
-2. Add lang="en" to ```<html>```
-3. Add a unique ```<title>``` that explains the purpose of the page
-5. Add a favicom to the href attribute in the following link in the ```<head>```... ```<link rel="icon" href="">```
-14. Change the names from q1 and q2 to be more descriptive for the availability questions
- 6. Add your club to the option list of the ```<select name="club" id="clubs" required>``` dropdown
-15. Add a legend for the availability questions to be supportive for screen reader 
-16. Fix the <label>Email:</label> to be accessible (run axe chrome plugin for more info)
-17. Fix the ```<img src=".\assets\img\UAFooterLogo.PNG" />``` (run axe chrome plugin for more info)
-18. Run the axe plug-in and fix any issues that have been identified.
-19. Turn on the NVDA screen reader and use the arrow down key to navigate through the page.
-20. With NVDA still on, use the tab key to navigate to the interactive elements (button, links, form inputs) and make sure they all hold visual focus
-21. Review the website at three viewports: desktop, laptop, and mobile view.
+13. Open registration.html in your editor and your browser.
+14. Add lang="en" to ```<html>```
+15. Add a unique ```<title>``` that explains the purpose of the page
+16. Add a favicom to the href attribute in the following link in the ```<head>```... ```<link rel="icon" href="">```
+17. Change the names from q1 and q2 to be more descriptive for the availability questions
+18. Add your club to the option list of the ```<select name="club" id="clubs" required>``` dropdown
+19. Add a legend for the availability questions to be supportive for screen reader 
+20. Fix the <label>Email:</label> to be accessible (run axe chrome plugin for more info)
+21. Fix the ```<img src=".\assets\img\UAFooterLogo.PNG" />``` (run axe chrome plugin for more info)
+22. Run the axe plug-in and fix any issues that have been identified.
+23. Turn on the NVDA screen reader and use the arrow down key to navigate through the page.
+24. With NVDA still on, use the tab key to navigate to the interactive elements (button, links, form inputs) and make sure they all hold visual focus
+25. Review the website at three viewports: desktop, laptop, and mobile view.
 
  ## Stretch Goals
  - Fix the layout of the main header and footer for small viewports like the Galaxy S8+
