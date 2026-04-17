@@ -74,14 +74,18 @@ This project already includes favicon files in `assets/img/favicons/`. Common fo
 ---
 
 ### Step 7 — Add four thumbnail images to the page with appropriate captions
-> **Why it matters:** Images make a page engaging, but every `<img>` **must** have an `alt` attribute. Screen readers read `alt` text aloud, and browsers display it when an image fails to load. Captions (using `<figcaption>` inside `<figure>`) provide visible descriptions tied semantically to the image. Decorative images can use `alt=""` to be skipped by screen readers.
+> **Why it matters:** Images make a page engaging, but every `<img>` **must** have an `alt` attribute. Screen readers read `alt` text aloud, and browsers display it when an image fails to load.  Decorative images can use `alt=""` to be skipped by screen readers.
 
 **Hint:**
 ```html
-<figure>
-  <img src="./assets/img/club-photo.jpg" alt="Members assembling a robot at a workbench">
-  <figcaption>Build night, October 2024</figcaption>
-</figure>
+<div class="card mb-4 box-shadow">
+  <img class="card-img-top" src="./assets/img/club-photo.jpg"
+       alt="Members assembling a robot at a workbench"
+       style="height: 225px; width: 100%; display: block;">
+  <div class="card-body">
+    <p class="card-text">Build night, October 2024</p>
+  </div>
+</div>
 ```
 
 ---
